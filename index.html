@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Porutselvi A | Frontend &amp; Web Developer</title>
+<meta name="description" content="Portfolio of Porutselvi A, a final-year B.Sc. IT student and web developer from Tenkasi, Tamil Nadu.">
+<meta name="theme-color" content="#08080D">
+<!-- FAVICON PLACEHOLDER: replace with your own icon file in assets/icons/ -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238B5CF6'/%3E%3Ctext x='16' y='22' font-size='17' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<canvas id="orbs" aria-hidden="true"></canvas>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#home" aria-label="Porutselvi A, home">Porutselvi</a>
+  <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Internships</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="main">
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="badge">Final-Year IT Student | Web Developer</p>
+    <h2>Hi, I'm <span class="grad">Porutselvi A</span></h2>
+    <p class="role" aria-live="off"><span id="typed"></span><i class="caret"></i></p>
+    <p class="lead">I build responsive websites and useful digital experiences with HTML, CSS and JavaScript, and I keep learning by shipping real projects.</p>
+    <div class="cta">
+      <a class="btn primary" href="#projects">Explore My Work</a>
+      <a class="btn ghost" href="#contact">Contact Me</a>
+    </div>
+    <div class="social">
+      <a href="https://github.com/a-p-selvi" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><svg viewBox="0 0 24 24"><text x="12" y="16" text-anchor="middle" font-size="9" font-weight="700" font-family="Space Grotesk,sans-serif">GH</text><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+      <a href="https://www.hackerrank.com/porutselvia" target="_blank" rel="noopener noreferrer" aria-label="HackerRank profile"><svg viewBox="0 0 24 24"><text x="12" y="16" text-anchor="middle" font-size="9" font-weight="700" font-family="Space Grotesk,sans-serif">HR</text><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+    </div>
+  </div>
+  <div class="hero-visual" aria-hidden="true">
+    <div class="code">
+      <div class="dots"><i></i><i></i><i></i></div>
+<pre><b>const</b> porutselvi = {
+  role: <em>"Web Developer"</em>,
+  study: <em>"B.Sc. IT (Final Year)"</em>,
+  stack: [<em>"HTML"</em>, <em>"CSS"</em>, <em>"JS"</em>, <em>"React"</em>],
+  learning: [<em>"Python"</em>, <em>"SQL"</em>],
+  openTo: <em>"internships & projects"</em>
+};</pre>
+    </div>
+    <!-- PROFILE IMAGE PLACEHOLDER: replace assets/images/profile-placeholder.png with your photo -->
+    <img class="avatar" src="assets/images/profile-placeholder.png" alt="Profile photo placeholder for Porutselvi A" onerror="this.style.display='none'">
+  </div>
+</section>
+
+<section id="about" class="sec reveal">
+  <h2>About me</h2>
+  <div class="about-grid">
+    <div>
+      <p>I'm a detail-oriented final-year B.Sc. Information Technology student and web developer. I enjoy turning ideas into responsive, easy-to-use web applications, and I care about clean frontend design.</p>
+      <p>My interests cover web development, frontend design, Python and databases. I learn best by building: hackathons, internships and college projects have been my classroom so far.</p>
+      <a class="btn primary" href="Porutselvi_A_Resume.pdf" download>Download Resume</a>
+    </div>
+    <ul class="facts glass">
+      <li><span>Studying</span>Final-year B.Sc. IT</li>
+      <li><span>CGPA</span>8.5</li>
+      <li><span>Location</span>Tenkasi, Tamil Nadu</li>
+      <li><span>Languages</span>Tamil, English</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="sec reveal">
+  <h2>Technical skills</h2>
+  <div class="grid skills">
+    <article class="card glass tilt"><h3>Frontend</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>React.js</li></ul></article>
+    <article class="card glass tilt"><h3>Backend and databases</h3><ul class="chips"><li>Python</li><li>SQL</li><li>PostgreSQL</li><li>Firebase</li></ul></article>
+    <article class="card glass tilt"><h3>Programming</h3><ul class="chips"><li>Python (Basic)</li><li>C (Basic)</li></ul></article>
+    <article class="card glass tilt"><h3>Design and creative tools</h3><ul class="chips"><li>Canva</li><li>Photoroom</li><li>Logo design</li><li>Video editing</li></ul></article>
+    <article class="card glass tilt"><h3>Other</h3><ul class="chips"><li>Content and quiz design</li><li>Responsive web design</li><li>Problem solving</li><li>Team collaboration</li></ul></article>
+  </div>
+</section>
+
+<section id="experience" class="sec reveal">
+  <h2>Internship experience</h2>
+  <ol class="timeline">
+    <li class="glass">
+      <h3>Web Developer Intern, Crackyyy.tech</h3>
+      <p class="meta">Remote | 01 October 2026 – 31 October 2026</p>
+      <p><strong>Project:</strong> Maison de Douce, a bakery product catalogue. Ref: CT/INT/2026/OCT/009.</p>
+      <ul>
+        <li>Built a responsive bakery product catalogue using HTML, CSS and JavaScript.</li>
+        <li>Completed 10 project tasks across approximately 36 hours of project work.</li>
+        <li>Implemented category-wise filtering, reset functionality and a favourites list.</li>
+        <li>Created an enquiry form with product selection and submission confirmation.</li>
+        <li>Included eight products across cakes, pastries, breads, cookies and muffins.</li>
+      </ul>
+      <a class="btn ghost small" href="https://maison-de-douce2026.vercel.app/#" target="_blank" rel="noopener noreferrer">View Live Project</a>
+    </li>
+    
+    <li class="glass">
+      <h3>Web Development Intern, Thiranex</h3>
+      <p class="meta">08 July 2026 – 07 August 2026</p>
+      <ul>
+        <li>Completed all internship tasks on time.</li>
+        <li>Task 1: Developed a personal portfolio website using HTML5 and CSS3.</li>
+        <li>Task 2: Created a responsive portfolio website for different screen sizes.</li>
+        <li>Task 3: Built an interactive To-Do application using JavaScript.</li>
+        <li>Task 4: Developed a Weather Dashboard using JavaScript and API integration.</li>
+        <li>Built and deployed a capstone website on Vercel.</li>
+      </ul>
+      <div class="project-links">
+        <a class="btn ghost small" href="https://a-p-selvi.github.io/Portfolio-Website/" target="_blank" rel="noopener noreferrer">Task 1 – Portfolio</a>
+        <a class="btn ghost small" href="https://a-p-selvi.github.io/Responsive-Portfolio-Website/" target="_blank" rel="noopener noreferrer">Task 2 – Responsive Portfolio</a>
+        <a class="btn ghost small" href="https://a-p-selvi.github.io/JavaScript-Todo-App/" target="_blank" rel="noopener noreferrer">Task 3 – To-Do App</a>
+        <a class="btn ghost small" href="https://a-p-selvi.github.io/Weather-Dashboard-JavaScript/" target="_blank" rel="noopener noreferrer">Task 4 – Weather Dashboard</a>
+      </div>
+    </li>
+
+    <li class="glass">
+      <h3>Web Developer Intern, YuvaIntern Portal</h3>
+      <p class="meta">1 month</p>
+      <p>Completed a one-month, project-based web development internship.</p>
+      <a class="btn ghost small" href="https://a-p-selvi.github.io/ShopSphere-Ecommerce-Capstone/" target="_blank" rel="noopener noreferrer">View Live Project</a>
+    </li>
+    
+    <li class="glass">
+      <h3>Data Visualization Using Python Intern, Naan Mudhalvan (TN Skills)</h3>
+      <p class="meta">15 days</p>
+      <p>Completed a 15-day internship focused on data visualization using Python.</p>
+      <a class="btn ghost small" href="https://github.com/a-p-selvi/python-project/blob/main/Food_Delivery_Sales_Customer_Insights.ipynb" target="_blank" rel="noopener noreferrer">View Live Project</a>
+    </li>
+  </ol>
+</section>
+
+<section id="projects" class="sec reveal">
+  <h2>Featured projects</h2>
+  <div class="grid projects">
+    
+    <!-- Project 1: GovtMate AI -->
+    <article class="proj glass">
+      <button class="shot" data-full="assets/images/GovtMate AI Welfare Discovery Showcase.png" data-alt="GovtMate AI Welfare Discovery Showcase" aria-label="Open GovtMate AI screenshot">
+        <img src="assets/images/GovtMate AI Welfare Discovery Showcase.png" alt="GovtMate AI screenshot" loading="lazy" width="800" height="500">
+      </button>
+      <div class="pbody">
+        <h3>GovtMate AI: Government Welfare Discovery Platform</h3>
+        <p>IBM Hackathon project. A web platform that helps students, farmers and citizens discover scholarships, loans, subsidies and welfare schemes, with an AI assistant and a category-wise scheme finder.</p>
+        <ul class="tags"><li>Web platform</li><li>AI assistant</li></ul>
+        <div class="acts"><a class="btn primary small" href="https://govguide-ai-z8we.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo</a></div>
+      </div>
+      <div class="over" aria-hidden="true">Built for the IBM Hackathon as a working prototype.</div>
+    </article>
+
+    <!-- Project 2: Veyra Fashion -->
+    <article class="proj glass">
+      <button class="shot" data-full="assets/images/VEYRA Fashion Marketplace UI Showcase.png" data-alt="Veyra Fashion screenshot" aria-label="Open Veyra Fashion screenshot">
+        <img src="assets/images/VEYRA Fashion Marketplace UI Showcase.png" alt="Veyra Fashion screenshot" loading="lazy" width="800" height="500">
+      </button>
+      <div class="pbody">
+        <h3>Veyra Fashion / Vastraa: E-commerce Website</h3>
+        <p>Thiranex internship project. A fashion e-commerce website backed by user personas, wireframes and strategic blueprints, deployed on Vercel.</p>
+        <ul class="tags"><li>E-commerce</li><li>UX planning</li><li>Vercel</li></ul>
+        <div class="acts"><a class="btn primary small" href="https://veyrafashion01.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a></div>
+      </div>
+      <div class="over" aria-hidden="true">Capstone-style work from the Thiranex internship.</div>
+    </article>
+
+    <!-- Project 3: Lakshu Tailoring -->
+    <article class="proj glass">
+      <button class="shot" data-full="assets/images/Lakshu Tailoring UI Showcase.png" data-alt="Lakshu Tailoring screenshot" aria-label="Open Lakshu Tailoring screenshot">
+        <img src="assets/images/Lakshu Tailoring UI Showcase.png" alt="Lakshu Tailoring screenshot" loading="lazy" width="800" height="500">
+      </button>
+      <div class="pbody">
+        <h3>Lakshu Tailoring: Frontend Web Application</h3>
+        <p>A responsive tailoring shop website built with React.js, with a clean interface and a contact and enquiry form with email integration.</p>
+        <ul class="tags"><li>React.js</li><li>Responsive UI</li><li>Email integration</li></ul>
+        <div class="acts"><a class="btn primary small" href="https://a-p-selvi.github.io/Lakshu-Tailaring/" target="_blank" rel="noopener noreferrer">Live Demo</a></div>
+      </div>
+      <div class="over" aria-hidden="true">Built with React.js.</div>
+    </article>
+
+    <!-- Project 4: Agri-Pack -->
+    <article class="proj glass">
+      <button class="shot" data-full="assets/images/AgriAI Pack Dashboard Collage.png" data-alt="Agri-pack biodegradable packaging project screenshot" aria-label="Open Agri-pack project screenshot">
+        <img src="assets/images/AgriAI Pack Dashboard Collage.png" alt="Agri-pack sustainable agricultural packaging website" loading="lazy" width="800" height="500">
+      </button>
+      <div class="pbody">
+        <h3>Agri-Pack: Sustainable Packaging</h3>
+        <p>An agriculture-focused sustainability project that explores converting agricultural waste such as paddy straw, corn stalks, and onion leaves into biodegradable packaging.</p>
+        <ul class="tags">
+          <li>Agriculture</li>
+          <li>Sustainability</li>
+          <li>Biodegradable Packaging</li>
+        </ul>
+        <div class="acts">
+          <a class="btn primary small" href="https://a-p-selvi.github.io/Agri-pack/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+        </div>
+      </div>
+      <div class="over" aria-hidden="true">Sustainable Innovation · Agricultural Waste · Green Future</div>
+    </article>
+    
+  </div>
+</section>
+
+<section id="achievements" class="sec reveal">
+  <h2>Achievements</h2>
+  <div class="grid ach">
+    <article class="card glass"><h3>MSME Hackathon 6.0</h3><p>My idea to convert agricultural waste (paddy straw, corn stalks, onion leaves) into biodegradable packaging was selected for Stage 3.</p></article>
+    <article class="card glass"><h3>IBM Hackathon</h3><p>Participated and built GovtMate AI, a working prototype.</p></article>
+    <article class="card glass"><h3>College Symposium</h3><p>Appreciated for content preparation for the quiz game event.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="sec reveal">
+  <h2>Let's work together</h2>
+  <div class="contact-grid">
+    <div>
+      <p>Have an internship, project or idea in mind? Send a message and I'll reply by email.</p>
+      <ul class="clinks">
+        <li><a href="mailto:porutselviacn0303@gmail.com">porutselviacn0303@gmail.com</a></li>
+        <li><a href="tel:+919345218136">+91 9345218136</a></li>
+        <li><a href="https://github.com/a-p-selvi" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        <li><a href="https://www.hackerrank.com/porutselvia" target="_blank" rel="noopener noreferrer">HackerRank</a></li>
+        <li><a data-link="LinkedIn URL" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        <li><a data-link="Instagram URL" href="#" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      </ul>
+    </div>
+    <form id="form" class="glass" novalidate>
+      <label>Name<input name="from_name" type="text" required autocomplete="name"></label>
+      <label>Email<input name="reply_to" type="email" required autocomplete="email"></label>
+      <label>Subject<input name="subject" type="text" required></label>
+      <label>Message<textarea name="message" rows="5" required></textarea></label>
+      <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn primary" id="send" type="submit">Send message</button>
+      <p id="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span> Porutselvi A. Built with HTML, CSS and JavaScript.</p>
+  <p><a href="https://github.com/a-p-selvi" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://www.hackerrank.com/porutselvia" target="_blank" rel="noopener noreferrer">HackerRank</a> · <a href="mailto:porutselviacn0303@gmail.com">Email</a></p>
+</footer>
+
+<button id="top" aria-label="Back to top">&uarr;</button>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Screenshot preview" hidden><button id="lbx" aria-label="Close preview">&times;</button><img alt=""></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
