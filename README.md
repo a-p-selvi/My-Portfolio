@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Porutselvi A: Portfolio
 
 Plain HTML5, CSS3 and vanilla JavaScript. No build step.
@@ -36,3 +37,7 @@ Links that still start with `REPLACE_` are disabled and show a hint, so nothing 
 ## 3. Deploy
 - **GitHub Pages:** push the folder to a repo, then Settings > Pages > deploy from the main branch.
 - **Vercel / Netlify:** import the repo or drag the folder in. No build command needed.
+=======
+# My-Portfolio
+Passionate Web Developer creating modern, responsive, and user-friendly websites with creativity and clean code.
+>>>>>>> d757c5f5152c47ceadf293adf3ce92aa319e6f78
